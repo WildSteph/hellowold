@@ -12,3 +12,5 @@ wilder@wilder-ThinkPad-T440p:~/Bureau$ cd helloworld/
 wilder@wilder-ThinkPad-T440p:~/Bureau/helloworld$ ls
 Readm.md  teste.txt
 wilder@wilder-ThinkPad-T440p:~/Bureau/helloworld$ 
+wilder@wilder-ThinkPad-T440p:~/quetes/shell$ pwd
+/home/wilder/quetes/shell
