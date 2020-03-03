@@ -1,1 +1,14 @@
-helloworld
+
+wilder@wilder-ThinkPad-T440p:~/Bureau/helloworld$ cd ../
+wilder@wilder-ThinkPad-T440p:~/Bureau$ touch teste.txt
+wilder@wilder-ThinkPad-T440p:~/Bureau$ ls
+helloworld  teste.txt
+wilder@wilder-ThinkPad-T440p:~/Bureau$ cp Bureau/teste.txt helloworld/
+cp: impossible d'évaluer 'Bureau/teste.txt': Aucun fichier ou dossier de ce type
+wilder@wilder-ThinkPad-T440p:~/Bureau$ cp teste.txt helloworld/
+wilder@wilder-ThinkPad-T440p:~/Bureau$ ls
+helloworld  teste.txt
+wilder@wilder-ThinkPad-T440p:~/Bureau$ cd helloworld/
+wilder@wilder-ThinkPad-T440p:~/Bureau/helloworld$ ls
+Readm.md  teste.txt
+wilder@wilder-ThinkPad-T440p:~/Bureau/helloworld$ 
